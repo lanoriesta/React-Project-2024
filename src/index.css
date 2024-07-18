@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply text-2xl font-semibold;
+  }
+
+  h2 {
+    @apply text-lg font-bold text-myWhite tracking-widest drop-shadow-md;
+  }
+}
