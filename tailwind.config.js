@@ -9,9 +9,7 @@ export default {
       },
       container: {
         center: true,
-      },
-      fontFamily: {
-        display: "font-sans",
+        padding: "2rem",
       },
     },
   },
