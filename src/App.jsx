@@ -1,5 +1,6 @@
 import Accordion from "./components/Accordion";
 import RandomColorGenerator from "./components/RandomColorGenerator";
+import StarRating from "./components/StarRating";
 
 function App() {
   return (
@@ -8,7 +9,12 @@ function App() {
       {/* <Accordion /> */}
 
       {/* Random Color Component */}
-      <RandomColorGenerator />
+      {/* <RandomColorGenerator /> */}
+
+      {/* Star Rating */}
+      {/* <StarRating numberOfStar={10} /> */}
+
+      {/*  */}
     </>
   );
 }
