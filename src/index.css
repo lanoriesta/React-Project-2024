@@ -14,6 +14,10 @@
     @apply text-lg font-bold text-myWhite tracking-widest drop-shadow-md;
   }
 
+  h3 {
+    @apply text-lg font-bold;
+  }
+
   /* Random Color */
 
   /* button {
