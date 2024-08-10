@@ -20,5 +20,6 @@ export default {
       xxl: "1536px",
     },
   },
+  darkMode: "selector",
   plugins: [],
 };
