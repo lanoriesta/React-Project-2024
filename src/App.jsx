@@ -1,5 +1,6 @@
 import Accordion from "./components/Accordion";
 import ImageSlider from "./components/ImageSlider";
+import LightDarkTheme from "./components/LightAndDarkTheme";
 import LoadMoreBtn from "./components/LoadMoreBtn";
 import QRCodeGenerator from "./components/QRCode/QRCode";
 import RandomColorGenerator from "./components/RandomColorGenerator";
@@ -28,7 +29,10 @@ function App() {
       {/* <TreeviewMenu /> */}
 
       {/* QR CODE Generator */}
-      <QRCodeGenerator />
+      {/* <QRCodeGenerator /> */}
+
+      {/* Light & Dark Theme */}
+      <LightDarkTheme />
     </>
   );
 }
