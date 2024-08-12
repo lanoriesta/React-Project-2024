@@ -4,6 +4,7 @@ import LightDarkTheme from "./components/LightAndDarkTheme";
 import LoadMoreBtn from "./components/LoadMoreBtn";
 import QRCodeGenerator from "./components/QRCode/QRCode";
 import RandomColorGenerator from "./components/RandomColorGenerator";
+import ScrollIndicator from "./components/Scrollindicator";
 import StarRating from "./components/StarRating";
 import TreeviewMenu from "./components/TreeView";
 
@@ -32,7 +33,10 @@ function App() {
       {/* <QRCodeGenerator /> */}
 
       {/* Light & Dark Theme */}
-      <LightDarkTheme />
+      {/* <LightDarkTheme /> */}
+
+      {/* Scroll Indicator */}
+      <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} />
     </>
   );
 }
