@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .tab-item {
+    @apply hover:bg-red-500 hover:text-white transition-all delay-75;
+  }
+  .active-tab {
+    @apply transition-all w-1/3;
+  }
+}
