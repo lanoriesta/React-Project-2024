@@ -1,4 +1,5 @@
 import Accordion from "./components/Accordion";
+import CustomTabs from "./components/custom-tabs";
 import ImageSlider from "./components/ImageSlider";
 import LightDarkTheme from "./components/LightAndDarkTheme";
 import LoadMoreBtn from "./components/LoadMoreBtn";
@@ -36,7 +37,10 @@ function App() {
       {/* <LightDarkTheme /> */}
 
       {/* Scroll Indicator */}
-      <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} />
+      {/* <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} /> */}
+
+      {/* Custom tabs */}
+      <CustomTabs />
     </>
   );
 }
