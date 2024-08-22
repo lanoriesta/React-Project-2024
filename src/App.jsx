@@ -7,6 +7,7 @@ import QRCodeGenerator from "./components/QRCode/QRCode";
 import RandomColorGenerator from "./components/RandomColorGenerator";
 import ScrollIndicator from "./components/Scrollindicator";
 import StarRating from "./components/StarRating";
+import TicTacToe from "./components/Tic-Tac-Toe";
 import TreeviewMenu from "./components/TreeView";
 
 function App() {
@@ -40,7 +41,10 @@ function App() {
       {/* <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} /> */}
 
       {/* Custom tabs */}
-      <CustomTabs />
+      {/* <CustomTabs /> */}
+
+      {/* Tic Tac Toe */}
+      <TicTacToe />
     </>
   );
 }
