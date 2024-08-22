@@ -42,9 +42,6 @@ function App() {
 
       {/* Custom tabs */}
       {/* <CustomTabs /> */}
-
-      {/* Tic Tac Toe */}
-      <TicTacToe />
     </>
   );
 }
