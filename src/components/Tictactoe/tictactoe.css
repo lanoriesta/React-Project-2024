@@ -19,4 +19,5 @@
   border: 2px solid white;
   float: left;
   border-radius: 5px;
+  text-shadow: 1px 1px 5px#000;
 }
