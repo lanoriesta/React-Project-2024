@@ -7,7 +7,7 @@ import QRCodeGenerator from "./components/QRCode/QRCode";
 import RandomColorGenerator from "./components/RandomColorGenerator";
 import ScrollIndicator from "./components/Scrollindicator";
 import StarRating from "./components/StarRating";
-import TicTacToe from "./components/Tic-Tac-Toe";
+import TicTacToe from "./components/Tictactoe";
 import TreeviewMenu from "./components/TreeView";
 
 function App() {
@@ -43,7 +43,7 @@ function App() {
       {/* Custom tabs */}
       {/* <CustomTabs /> */}
 
-      {/* Tic Tac Toe */}
+      {/* Test TicTacToe */}
       <TicTacToe />
     </>
   );
