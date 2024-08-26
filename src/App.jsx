@@ -44,7 +44,7 @@ function App() {
       {/* <CustomTabs /> */}
 
       {/* Test TicTacToe */}
-      <TicTacToe />
+      {/* <TicTacToe /> */}
     </>
   );
 }
